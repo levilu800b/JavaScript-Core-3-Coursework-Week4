@@ -4,10 +4,12 @@ test("returns largest number in array", function () {
   // Arrange
   // Act
   // Assert
-  // const numbers = [3, 21, 88, 4, 36];
-  // const outPut = getLargestNumber(numbers);
-  // const expected = 88;
-  // expect(outPut).toEqual(expected);
+  
+  const numbers = [3, 21, 88, 4, 36];
+
+  const outPut = getLargestNumber(numbers);
+  const expected = 88;
+  expect(outPut).toEqual(expected);
 });
 
 // example
