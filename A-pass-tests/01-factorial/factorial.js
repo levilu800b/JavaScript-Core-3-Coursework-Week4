@@ -29,6 +29,4 @@ function factorial(int) {
     return int * factorial(int - 1);
 }
 
-console.log(factorial(5));
-
 module.exports = factorial;
